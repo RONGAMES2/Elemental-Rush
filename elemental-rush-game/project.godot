@@ -11,13 +11,26 @@ config_version=5
 [application]
 
 config/name="Elemental Rush Game"
+run/main_scene="uid://dlw2tr2x0qjkk"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[file_customization]
+
+folder_colors={
+"res://Assets/": "red",
+"res://Materials/": "purple",
+"res://Scenes/": "orange",
+"res://Scripts/": "green"
+}
 
 [physics]
 
